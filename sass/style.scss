@@ -238,3 +238,28 @@ $font-main: "Lato", sans-serif;
     padding-top: 10px;
 }
 
+@media (max-width: 767px) {
+    .splash {
+        height: 600px;
+    }
+    .splash-inner {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+    .menu {
+        padding-top: 150px;
+    }
+    .navigation li {
+        display: flex;
+        text-align: center;
+        margin-left: 150px;
+        transform: translateX(75%);
+    }
+    .menu li {
+        padding-top: 3px;
+    }
+    .menu a {
+        text-align: end;
+    }
+}
+
