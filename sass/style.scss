@@ -1,0 +1,159 @@
+/* Variables */
+$color-main: #ffc107;
+$color-light: #ffffff;
+$color-dark: #000;
+$color-back: #3d3d3d;
+$color-text: #1b1b1b;
+$font-style: 'Galada', cursive;
+$font-main: "Lato", sans-serif;
+
+
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box; }
+  
+  body {
+    text-align: left;
+    background: $color-light;
+    color: $color-back;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.7; 
+}
+
+/* Splash*/
+
+.row {
+    padding-top: 25px;
+}
+
+.navigation {
+    padding-top: 12px;
+    padding-bottom: 12px; 
+}
+
+.logo {
+    padding-top: 0;
+    position: absolute;
+    margin-left: 10%;
+}
+.row p {
+    color: $color-main;
+    font-family: $font-style;
+    font-size: 28px;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: end;
+    list-style-position: inside;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: $color-light;
+    font-family: $font-main;
+    font-size: 12px;
+}
+
+.splash {
+    height: 70vh;
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/401107/pexels-photo-401107.jpeg?auto=compress&ampcs=tinysrgb&ampw=1260&amph=750&ampdpr=1");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.splash-inner h2 {
+    color: $color-light;
+    font-size: 40px;
+    margin: 48px 0 0 0;
+    font-family: $font-main; 
+    text-align: center;
+}
+
+.splash-inner h1 {
+    color: $color-light;
+    font-size: 60px;
+    margin: 48px 0 0 0;
+    font-family: $font-main; 
+    text-align: center;
+    font-weight: bold;
+}
+.splash-inner p {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-main;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    background-color: $color-main;
+    border-color: $color-main;
+    color: $color-light;
+    background-image: linear-gradient(90deg, $color-light 50%, transparent 50%); 
+}
+  
+.btn:hover {
+    background-position: 0 100%;
+    color: $color-dark;
+    transition: all 0.5s; }
+
+/*Services*/
+
+.services h2 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.services h3 {
+    text-align: center;
+    font-size: x-small;
+    color: $color-text;
+}
+
+.services p {
+    text-align: center;
+    font-size: x-small;
+    color: $color-text;
+    font-family: $font-main;
+}
+
+.icon {
+    font-size: 54px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: $color-main;
+}
+
+
+    
