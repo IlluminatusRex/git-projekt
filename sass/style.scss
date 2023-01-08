@@ -263,3 +263,9 @@ $font-main: "Lato", sans-serif;
     }
 }
 
+@media (min-width: 1400px) {
+    .list-inline {
+        padding-left: 25%;
+    }
+}
+
